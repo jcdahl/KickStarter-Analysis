@@ -28,7 +28,7 @@ Example: =COUNTIFS(Kickstarter!$D:$D,"<1000",Kickstarter!$F:$F,"successful",Kick
 ### Challenges and Difficulties Encountered
 Because of the ammount of countifs requiered to complete the *Outcomes Based on Goal*, I chose to complete only the "number successful" calculations. From there I locked the columns I needed to in the formula and then drug them over to failed and cancel columns and used ctrl H to find and replace "successful" with "failed" and "canceled"
 
-![Example](Resources/Find and Replace.png)
+![](Resources/Find and Replace.png)
 
 ## Results
 
@@ -41,5 +41,8 @@ Because of the ammount of countifs requiered to complete the *Outcomes Based on 
   1. If you need need between $30,000 and $34,999 ask for $35,000 - $39,999 because $30-$34,999 has the 2nd least amount of succesful campaigns at 27% and the 2nd highest fail rate of 73% while the $35-$39,999 group saw a 67% success rate and only a 33% fail rate. However, If one doesnt need to raise that much money run a campaign for $4,999 or less becasue those two categories had the highest success rates at 76% and 73%.
 
 - What are some limitations of this dataset?
-
+  1. You cant compare any of this to how louise's play *Fever* did in the same timeframe.
+  
 - What are some other possible tables and/or graphs that we could create?
+  1. Could have a reference point on the Launch date chart showing where *Fever* launched
+  2. Analysis on percent to goal for all failed and successful campaigns to look at the margins for trends.
